@@ -1,0 +1,28 @@
+
+body{
+  background: linear-gradient(to left, rgb(1, 60, 1),rgb(130, 245, 197) );
+}
+
+.App{
+  text-align: center;
+} 
+h1 {
+  color: rgb(16, 219, 135);
+  font-family: 'Kablammo', cursive;
+}
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  align-items: center;
+  justify-items: center;
+}
+.monsterCards{
+  width: 230px;
+  /* background-color:#95dada; */
+  border: 2px solid white;
+  margin: 10px;
+}
+.monsterCards > img{
+  width: 200px;
+  padding: auto;
+}
